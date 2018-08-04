@@ -1,0 +1,22 @@
+
+.Filter {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.Filter label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.Filter select {
+    width: 100%;
+}
+
+.SearchFilters {
+}
+
+.search-btn input {
+    width: 100%;
+}
