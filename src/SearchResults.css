@@ -52,3 +52,15 @@
 .label {
   font-weight: bold;
 }
+
+@media only screen and (max-width: 768px) {
+  .Result .image {
+    float: none;
+    width: 100%;
+  }
+
+  .Result .details, .Result h3 {
+    margin-left: 0;
+  }
+}
+

@@ -13,6 +13,17 @@
   margin-left: 220px;
 }
 
+@media only screen and (max-width: 768px) {
+  .left {
+    width: 100%;
+    float: none
+  }
+
+  .right {
+    margin-left: 0;
+  }
+}
+
 .clear {
   clear: both;
 }
