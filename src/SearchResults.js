@@ -45,7 +45,11 @@ class SearchResult extends Component {
           <p>
             <span className="label">Day</span>: {this.props.data.meetingDay.label}{" "}
             <span className="label">Time</span>: {this.props.data.meetingTime.label}{" "}
-            <span className="label">Location</span>: {this.props.data.area.label}
+            <span className="label">Location</span>: {this.props.data['location-city']}
+          </p>
+          <p>
+            <span className="label">Group Leader</span>: {this.props.data['leader-name']}{" "}
+            (<a href={'mailto:' + this.props.data['leader-email']}>{this.props.data['leader-email']}</a>)
           </p>
         </div>
       </div>
