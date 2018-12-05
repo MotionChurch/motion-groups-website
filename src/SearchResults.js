@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './SearchResults.css';
+import striptags from 'striptags';
 
 class SearchResult extends Component {
 
@@ -40,7 +41,7 @@ class SearchResult extends Component {
           {this.badge('udf_1')}
           {this.props.data.childcare ? (<span className="badge">Childcare</span>) : null}
 
-          <p>{this.props.data.description}</p>
+          <p>{striptags(this.props.data.description)}</p>
 
           <p>
             <span className="label">Day</span>: {this.props.data.meetingDay.label}{" "}
@@ -49,7 +50,6 @@ class SearchResult extends Component {
           </p>
           <p>
             <span className="label">Group Leader</span>: {this.props.data['leader-name']}{" "}
-            (<a href={'mailto:' + this.props.data['leader-email']}>{this.props.data['leader-email']}</a>)
           </p>
         </div>
       </div>
