@@ -41,12 +41,14 @@
 }
 
 .badge {
-  background: #aed3e5;
+  background-color: rgb(112, 112, 112);
+  color: white;
   font-size: 10pt;
-  border-radius: 4px;
+  border-radius: 3px;
   display: inline-block;
   margin: 0 0.5rem 5px 0;
-  padding: 2px 10px 2px 10px;
+  padding: 5px 15px 5px 15px;
+  text-transform: uppercase;
 }
 
 .label {

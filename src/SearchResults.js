@@ -51,6 +51,9 @@ class SearchResult extends Component {
           <p>
             <span className="label">Group Leader</span>: {this.props.data['leader-name']}{" "}
           </p>
+          <p>
+            <a className="btn" target="_new" href="https://myfoursquarechurch.ccbchurch.com/goto/forms/133/responses/new">Contact Group</a>
+          </p>
         </div>
       </div>
     );

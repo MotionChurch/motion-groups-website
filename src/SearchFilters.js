@@ -52,8 +52,8 @@ class SearchFilters extends Component {
     return (
       <div className="SearchFilters">
         {filters}
-        <div>
-          <button onClick={this.props.onReset}>Reset</button>
+        <div style={{textAlign: 'center'}}>
+          <button className="btn" onClick={this.props.onReset}>Reset</button>
         </div>
       </div>
     );

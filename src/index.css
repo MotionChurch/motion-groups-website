@@ -1,5 +1,38 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: futura-pt;
+}
+
+.btn {
+  -moz-appearance: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 2px rgb(112, 112, 112);
+  border-radius: 3px;
+  color: rgb(112, 112, 112);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  margin: 0;
+  padding: 14px 35px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.1s, 0.1s;
+  transition-property: background-color, color;
+  transition-timing-function: linear, linear;
+}
+
+.btn:hover {
+  background-color: rgb(112, 112, 112);
+  color: white;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.1s, 0.1s;
+  transition-property: background-color, color;
+  transition-timing-function: linear, linear;
 }
