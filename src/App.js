@@ -3,7 +3,7 @@ import update from 'immutability-helper';
 import 'whatwg-fetch';
 import 'promise-polyfill/src/polyfill';
 import './App.css';
-import logo from './foursquare.png';
+import logo from './logo.png';
 import SearchFilters from './SearchFilters.js';
 import SearchResults from './SearchResults.js';
 
